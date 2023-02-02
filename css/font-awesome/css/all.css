@@ -7650,6 +7650,9 @@ readers do not read off random characters that represent icons */
 .fa-symfony:before {
   content: "\f83d"; }
 
+.fa-tableau:before {
+  content: "\54" }
+
 .fa-teamspeak:before {
   content: "\f4f9"; }
 
