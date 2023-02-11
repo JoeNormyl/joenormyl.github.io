@@ -1,18 +1,13 @@
 ---
-layout: post
 modal-id: 1
 date: 2022-02-05
 img: unnamed-chunk-19-1.png
 alt: Sample Bar Chart from the Cyclistic Project
-project-date: January 2020
+project-date: January 2023
 client: Google Data Analytics Course
 category: Data Analysis
 title: Finding Differences in Ridership for Cyclistic Bike Share Company
 description: Cyclistic is a made-up company but the data in this project comes from real bike-share usage in Chicago. The premise of the project as well as all characters are fictional, but the analysis is very real.
-output:
-  md_document:
-    variant: markdown_github
-    preserve_yaml: true
 ---
 
 # Differences in Ridership for Cyclistic

@@ -488,12 +488,21 @@ footer .footer-below {
 }
 
 .project-post {
-    margin-bottom: 10em;
+
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 800px;
 
+}
+
+#project-list{
+    margin-top: 10em;
+}
+
+#projectlist.h2 {
+    margin-top: 10em;
+    margin-bottom: 20em;
 }
 
 #project-body {

@@ -59,13 +59,9 @@ address:
 credits: "Freelancer Theme by Jerome Lachaud"
 
 # Build settings
-permalink: /:title/
+permalink: pretty
 markdown: kramdown
 # relative_permalinks: false
-
-include:
-  - pages
-  - .htaccess
 
 #for index
 defaults:
@@ -75,21 +71,14 @@ defaults:
     values:
       permalink: ""
 
-  # - scope:
-  #     path: "pages/projects.html"
-  #     type: "projects"
-  #   values:
-  #     layout: "projects"
-  #     permalink: "/pages/"
-
   - scope:
       path: ""
       type: "posts"
     values:
-      layout: "project_post"
+      layout: "post"
 
-  - scope:
-      path: "projects.html"
-    values:
-      layout: "projects"
-      permalink: "/projects"
+  # - scope:
+  #     path: "projects.html"
+  #   values:
+  #     layout: "projects"
+  #     permalink: "/projects"
