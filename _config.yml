@@ -1,7 +1,7 @@
 # Site settings
 title: "Joseph Passarelli"
 email: joenormyl@gmail.com
-url: https://joenormyl.github.io/
+url: https://joenormyl.github.io
 description: "Portfolio and List of Projects for Josph Passarelli AKA Joe Normyl. Find me on GitHub, Kaggle, or send me a message below"
 keywords: "your keywords, separated by commas"
 skills: "Data Analytics - Python - R - Tableau - SQL - Design"
@@ -59,13 +59,37 @@ address:
 credits: "Freelancer Theme by Jerome Lachaud"
 
 # Build settings
+permalink: /:title/
 markdown: kramdown
-permalink: pretty
+# relative_permalinks: false
 
-#for posts
+include:
+  - pages
+  - .htaccess
+
+#for index
 defaults:
+  - scope:
+      path: ""
+      type: "home"
+    values:
+      permalink: ""
+
+  # - scope:
+  #     path: "pages/projects.html"
+  #     type: "projects"
+  #   values:
+  #     layout: "projects"
+  #     permalink: "/pages/"
+
   - scope:
       path: ""
       type: "posts"
     values:
-      permalink: ""
+      layout: "project_post"
+
+  - scope:
+      path: "projects.html"
+    values:
+      layout: "projects"
+      permalink: "/projects"
