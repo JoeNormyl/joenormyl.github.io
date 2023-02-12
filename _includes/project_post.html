@@ -1,3 +1,8 @@
-<section class="post-content">
-  {{ post.content }}
+---
+img: {{post.img}}
+---
+
+<section class="container post-content">
+  <img src="/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+  {{ content }}
 </section>

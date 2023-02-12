@@ -1,18 +1,23 @@
 ---
 modal-id: 1
 date: 2022-02-05
-img: unnamed-chunk-19-1.png
+img: Capstone-Thumb.png
 alt: Sample Bar Chart from the Cyclistic Project
 project-date: January 2023
 client: Google Data Analytics Course
 category: Data Analysis
-title: Finding Differences in Ridership for Cyclistic Bike Share Company
+title: Differences in Ridership for Cyclistic Bike Share
 description: Cyclistic is a made-up company but the data in this project comes from real bike-share usage in Chicago. The premise of the project as well as all characters are fictional, but the analysis is very real.
 ---
 
-# Differences in Ridership for Cyclistic
+## Differences in Ridership for Cyclistic
+
+&nbsp;
+&nbsp;
 
 ## Scenario
+
+&nbsp;
 
 You are a junior data analyst working in the marketing analyst team at
 Cyclistic, a bike-share company in Chicago. The director of marketing
@@ -23,8 +28,11 @@ these insights, your team will design a new marketing strategy to
 convert casual riders into annual members. But first, Cyclistic
 executives must approve your recommendations, so they must be backed up
 with compelling data insights and professional data visualizations.
+`   `
 
 ## Characters
+
+`   `
 
 - Cyclistic: A bike-share program that features more than 5,800
   bicycles and 600 docking stations. Cyclistic sets itself apart by
@@ -47,9 +55,11 @@ with compelling data insights and professional data visualizations.
 - Cyclistic executive team: The notoriously detail-oriented executive
   team will decide whether to approve the recommended marketing
   program.
+  `   `
 
 ## About the company
 
+`   `  
 In 2016, Cyclistic launched a successful bike-share offering. Since
 then, the program has grown to a fleet of 5,824 bicycles that are
 geotracked and locked into a network of 692 stations across Chicago. The

@@ -493,7 +493,20 @@ footer .footer-below {
     position: relative;
     margin: 0 auto;
     max-width: 800px;
+}
 
+.modal-post-link {
+    margin-top: 2em;
+    margin-bottom: 2em
+}
+
+.post-container {
+    margin: 2em;
+    width: 640px;
+    align-items: center;
+}
+
+.post-content {
 }
 
 #project-list{
