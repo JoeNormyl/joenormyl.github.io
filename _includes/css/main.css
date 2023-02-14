@@ -487,6 +487,10 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
+.post-html {
+    width:fit-content;
+}
+
 .project-post {
 
     display: block;
@@ -502,11 +506,15 @@ footer .footer-below {
 
 .post-container {
     margin: 2em;
-    width: 640px;
     align-items: center;
 }
 
 .post-content {
+}
+
+.post-image{
+    margin-bottom: 3em;
+    padding: 2em;
 }
 
 #project-list{
