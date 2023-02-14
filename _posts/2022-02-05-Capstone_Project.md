@@ -28,11 +28,12 @@ these insights, your team will design a new marketing strategy to
 convert casual riders into annual members. But first, Cyclistic
 executives must approve your recommendations, so they must be backed up
 with compelling data insights and professional data visualizations.
-`   `
+
+&nbsp;
 
 ## Characters
 
-`   `
+&nbsp;
 
 - Cyclistic: A bike-share program that features more than 5,800
   bicycles and 600 docking stations. Cyclistic sets itself apart by
@@ -55,11 +56,13 @@ with compelling data insights and professional data visualizations.
 - Cyclistic executive team: The notoriously detail-oriented executive
   team will decide whether to approve the recommended marketing
   program.
-  `   `
+
+&nbsp;
 
 ## About the company
 
-`   `  
+&nbsp;
+
 In 2016, Cyclistic launched a successful bike-share offering. Since
 then, the program has grown to a fleet of 5,824 bicycles that are
 geotracked and locked into a network of 692 stations across Chicago. The
@@ -86,8 +89,11 @@ riders would buy a membership, and how digital media could affect their
 marketing tactics. Moreno and her team are interested in analyzing the
 Cyclistic historical bike trip data to identify trends.
 
+&nbsp;
+
 ## Step 1: Ask
 
+&nbsp;
 Three questions will guide the future marketing program:
 
 1.  How do annual members and casual riders use Cyclistic bikes
@@ -107,9 +113,11 @@ You will produce a report with the following deliverables:
 4.  A summary of your analysis
 5.  Supporting visualizations and key findings
 6.  Your top three recommendations based on your analysis
+    &nbsp;
 
 ## Step 2: Prepare
 
+&nbsp;
 First I will load all needed libraries
 
 ```r
@@ -509,8 +517,11 @@ Data summary
 | start_time    |   5667717 |           0.5 | 2022-01-01 00:00:05 | 2022-12-31 23:59:26 | 2022-07-22 15:03:59 |  4745862 |
 | end_time      |   5667717 |           0.5 | 2022-01-01 00:01:48 | 2023-01-02 04:56:45 | 2022-07-22 15:24:44 |  4758633 |
 
+&nbsp;
+
 ## Step 3. Process
 
+&nbsp;
 Having previewed the data it’s time to give it a good scrub. Due to the
 volume of data, I chose to remove any rows with missing info as well as
 any duplicates. Next I will mutate the dataframe to coerce the types I
@@ -659,9 +670,11 @@ df_clean$month <- ordered(df_clean$month, levels=c("January", "February", "March
 ```
 
 Looking much better. Now on to the analysis!
+&nbsp;
 
 ## Step 4. Analyze
 
+&nbsp;
 Time to look a little deeper into the data now that we have processed
 and cleaned the original dataframe. I will run through some aggregations
 and summaries to provide a solid base from which to build insights and
@@ -844,9 +857,11 @@ Looking through the results, I can already start to see some of the
 patterns of difference between the two types of users. Next I will
 create some visuals to help highlight the insights and use for
 presentation of my analysis.
+&nbsp;
 
 ## Step 5. Share
 
+&nbsp;
 When we plot member vs casual usage by weekday, we should be able to
 easily tell if there is any difference in usage by each group.
 
@@ -1191,8 +1206,11 @@ by far. With the casual users however, they seem much more interested in
 the electric bike option relative to the total number of each. The other
 thing I notice is that members do not use the docked bikes at all. This
 could be significant but more investigation is needed
+&nbsp;
 
 ## Step 6. Act
+
+&nbsp;
 
 ### Based on the results of my analysis, I believe the main differences between the members and casual riders are:
 
